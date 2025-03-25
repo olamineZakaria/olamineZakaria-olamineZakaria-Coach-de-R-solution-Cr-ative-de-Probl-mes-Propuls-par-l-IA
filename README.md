@@ -27,5 +27,9 @@ pip install -r requirements.txt
 ```bash
 chainlit run .\coach.py
 ```
-
+## Screenshots
+Here are some screenshots of the application in action:
+- ![Screenshot 1](images/Screenshot%202025-03-25%20085403.png)
+- ![Screenshot 2](images/Screenshot%202025-03-25%20085445.png)
+- ![Screenshot 3](images/Screenshot%202025-03-25%20085713.png)
 
