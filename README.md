@@ -22,4 +22,10 @@ You can install all dependencies using the following command:
 pip install -r requirements.txt
 ```
 
+## Run the Application
+
+```bash
+chainlit run .\coach.py
+```
+
 
