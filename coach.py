@@ -10,7 +10,7 @@ import asyncio
 
 # 🔹 Chargement sécurisé des variables d'environnement
 load_dotenv()
-MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "ZUL8m9sdBK3RkRqMJ6i3F3yPVhFbjwOd")  # Fallback sécurisé
+MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY", "")  # Fallback sécurisé
 
 if not MISTRAL_API_KEY:
     raise ValueError("❌ Clé API Mistral manquante. Ajoutez-la dans votre fichier .env")
